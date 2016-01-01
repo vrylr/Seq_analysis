@@ -1,0 +1,27 @@
+for Unix navigation see e.g. http://www.westwind.com/reference/os-x/commandline/navigation.html
+
+concatenate .seq files with command line
+    cat *.seq > cat-file.seq
+
+eliminate empty files 
+    manual
+
+(align)
+
+cut-off start+end of the sequence
+    strip_DNAseq.py
+
+
+translate all seq into proteins 
+    (http://www.ebi.ac.uk/Tools/st/emboss_transeq/)
+    -> save as .txt or .fasta
+
+(align)
+
+join all lines in file 
+	clean.py
+    
+count linker length -> count all other than - from motifA to motifB !USE txt file!
+    give_linkers.py
+
+import linker file into excel for statistics
